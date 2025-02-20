@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center; 
+}
+.cell1{
+    border-radius: 0.5rem;
+    width: 3.2rem;
+    height: 2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    background-color: black;
+    color: white;
+}
+.cell{
+    border-radius: 0.5rem;
+    width: 3.3rem;
+    height: 2.5rem;
+    text-align:center;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    background-color: black;
+    color: white;
+    font-size: bold;
+}
+.container{
+    height:25rem;
+    width: 60rem;
+    background-color: grey;
+}
+.container1{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'escc ff1 ff2 ff3 ff4 ff5 ff6 ff7 ff8 ff9 f10 ff10 ff11 ff12 prsc del';
+}           
+.container2{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'dd one two three four five six seven eight nine zeros nn1 nn2 backspaces';
+}
+.container3{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'tab Q W E R T YY U I O P P1 P2 P3';
+}
+.container4{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'caps A S D F G H J K L L1 L2 Enter';
+}
+.container5{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas: 'shift Z XX C V B N M M1 M2 M3 Pause';
+}
+.container6{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'ctrl fns windows alt spaces alts ctrl1 lefts up rights';
+}
+.c1{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'home ends pgup pgdn';
+}
+.c2{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'numlock n1 n2 n3';
+}
+.c3{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'seven7 eight8 nine9 plus';
+}
+.c4{
+    position: absolute;
+    top: 10.5rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'four4 five5 six6';
+}
+.c5{
+    position: absolute;
+    top: 14.5rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'one1 two2 three3 enter';
+}
+.c6{position: absolute;
+    top: 18.5rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:'zero del';
+}
+.container7{
+    background-color: gray;
+    position: absolute;
+    top:0;
+    left: 58.7rem;
+   height: 25rem;
+
+}
+#esc{
+    grid-area:escc;
+}
+#f1{
+    grid-area:ff1;
+}
+#f2{
+    grid-area:ff2;
+}
+#f3{
+    grid-area:ff3;
+}
+#f4{
+    grid-area:ff4;
+}
+#f5{
+    grid-area:ff5;
+}
+#f6{
+    grid-area:ff6 ;
+}
+#f7{
+    grid-area:ff8 ;
+}
+#f8{
+    grid-area:ff9;
+}
+#f9{
+    grid-area:f10;
+}
+#f10{
+    grid-area:ff10;
+}
+#f11{
+    grid-area: ff11;
+}
+#f12{
+    grid-area: ff12;
+}
+#prtsc{
+    grid-area: prsc;
+}
+#delete{
+    grid-area: del;
+}
+#d1{
+    grid-area:dd;
+}
+#num1{
+    grid-area:one;
+}
+#num2{
+    grid-area:two;
+}
+#num3{
+    grid-area:three;
+}
+#num4{
+    grid-area:four;
+}
+#num5{
+    grid-area:five;
+}
+#num6{
+    grid-area:six;
+}
+#num7{
+    grid-area:seven;
+}
+#num8{
+    grid-area:eight;
+}
+#num9{
+    grid-area:nine;
+}
+#num0{
+    grid-area:zeros;
+}
+#n1{
+    grid-area:nn1;
+}
+#n2{
+    grid-area:nn2;
+}
+#back{
+    width: 6rem;
+    grid-area:backspaces;
+}
+#tab{
+    width: 5rem;
+    grid-area:tab;
+}
+#q{
+    grid-area:Q;
+}
+#w{
+    grid-area:W;
+}
+#e{
+    grid-area:E;
+}
+#r{
+    grid-area:R;
+}
+#t{
+    grid-area:T;
+}
+#y{
+    grid-area:YY;
+}
+#u{
+    grid-area:U;
+}
+#i{
+    grid-area:I;
+}
+#o{
+    grid-area:O;
+}#p{
+    grid-area:P;
+}
+#p1{
+    grid-area:P1;
+}
+#p2{
+    grid-area:P2;
+}
+#p3{
+    width: 4rem;
+    grid-area:P3;
+}
+#capslock{
+    width: 6.3rem;
+    grid-area:caps;
+}
+#a{
+    grid-area:A;
+}
+#s{
+    grid-area:S;
+}
+#d{
+    grid-area:D;
+}
+#f{
+    grid-area:F;
+}
+#g{
+    grid-area:G;
+}
+#h{
+    grid-area:H;
+}
+#j{
+    grid-area:J;
+}
+#k{
+    grid-area:K;
+}
+#l{
+    grid-area:L;
+}
+#l1{
+    grid-area:L1;
+}
+#l2{
+    grid-area:L2;
+}
+#enter{
+    width: 6.3rem;
+    grid-area:Enter;
+}
+#shift{
+    width: 7rem;
+    grid-area:shift;
+}
+#z{
+    grid-area:Z;
+}
+#x{
+    grid-area:XX;
+}
+#c{
+    grid-area:C;
+}
+#v{
+    grid-area:V;
+}
+#b{
+    grid-area:B;
+}
+#n{
+    grid-area:N;
+}
+#m{
+    grid-area:M;
+}
+#m1{
+    grid-area:M1;
+}
+#m2{
+    grid-area:M2;
+}
+#m3{
+    grid-area:M3;
+}
+#pause{
+    width: 9rem;
+    grid-area:Pause;
+}
+#ctrl{
+    grid-area:ctrl;
+}
+#ctrl1{
+    grid-area:ctrl1;
+}
+#alts{
+    grid-area:alts;
+}
+#fn{
+    grid-area:fns;
+}
+#alt{
+    grid-area:alt;
+}
+#space{
+    width: 20.5rem;
+    grid-area:spaces;
+}
+#right{
+    grid-area:rights;
+}
+#left{
+    grid-area:lefts;
+}
+#up{
+    padding-top: 0rem;
+    height: 1.5rem;
+    grid-area:up;
+}
+#down{
+    position: absolute;
+    left: 50.3rem;
+    top: 20.4rem;
+    padding-top: 0rem;
+    height: 1.5rem;
+    grid-area:down;
+}
+#w1{
+    grid-area:windows;
+}
+
+#home{
+    grid-area:home;
+}
+#end{
+    grid-area:ends;
+}
+#pgup{
+    grid-area:pgup;
+}
+#pgdn{
+    grid-area:pgdn;
+    margin-right: 2rem;
+}
+#numlock{
+    grid-area:numlock;
+}
+#nn1{
+    grid-area:n1;
+}
+#nn2{
+    grid-area:n2;
+}
+#nn3{
+    
+    grid-area:n3;
+    margin-right: 2rem;
+}
+#num77{
+    grid-area:seven7;
+}
+#num88{
+    grid-area:eight8;
+}
+#num99{
+    grid-area:nine9;
+}
+#num44{
+    grid-area:four4;
+}
+#num55{
+    grid-area:five5;
+}
+#num66{
+    grid-area:six6;
+}
+#plus{
+    height: 6.4rem;
+    grid-area:plus;
+    margin-right: 2rem;
+}
+#num11{
+    grid-area:one1;
+}
+#num22{
+    grid-area:two2;
+}
+#num33{
+    grid-area:three3;
+}
+#zero{
+    width: 7rem;
+    grid-area:zero;
+}
+#del{
+    grid-area:del;
+}
+#enters{
+    height: 6.5rem;
+    grid-area:enter;
+    margin-right: 2rem;
+}
+

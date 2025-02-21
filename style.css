@@ -4,16 +4,18 @@
     justify-content: center; 
 }
 .input{
-    height: 4rem;
+    height: 8rem;
     width: 90rem;
 }
-input{
-    height: 3.3rem;
-    width: 75rem;
+textarea{
+    height: 7rem;
+    width: 77rem;
     background-color: rgb(154, 154, 154);
-    color: white;
+    color: black;
     border-radius: 1rem;
     font-size: x-large;
+    padding-left: 10px;
+    padding-top: 4px;
 }
 .cell1{
     border-radius: 0.5rem;
@@ -110,7 +112,7 @@ input{
 .container7{
     background-color: gray;
     position: absolute;
-    top:4rem;
+    top:8rem;
     left: 60rem;
    height: 25rem;
 
@@ -358,7 +360,7 @@ input{
 #down{
     position: absolute;
     left: 50.8rem;
-    top: 25.5rem;
+    top: 29.5rem;
     padding-top: 0rem;
     height: 1.5rem;
     grid-area:down;

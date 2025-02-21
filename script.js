@@ -1,13 +1,13 @@
 const body=document.body
 body.addEventListener('keydown', (event)=>{
     console.log(event)
-    if(event.key=='Eacape'){
+    if(event.key=='Escape'){
         document.getElementById('esc').style.backgroundColor='white';
         document.getElementById('esc').style.color='black';
     }
  })
 body.addEventListener('keyup', (event)=>{
-    if(event.key=='Eacape'){
+    if(event.key=='Escape'){
         document.getElementById('esc').style.backgroundColor='black';
         document.getElementById('esc').style.color='white';
     }
@@ -499,13 +499,13 @@ body.addEventListener('keyup', (event)=>{
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.key=='Delete'){
+    if(event.code=='Delete'){
         document.getElementById('delete').style.backgroundColor='white';
         document.getElementById('delete').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.key=='Delete'){
+    if(event.code=='Delete'){
         document.getElementById('delete').style.backgroundColor='black';
         document.getElementById('delete').style.color='white';
     }
@@ -743,13 +743,13 @@ body.addEventListener('keyup', (event)=>{
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.which=='17'){
+    if(event.code=='ControlLeft'){
         document.getElementById('ctrl').style.backgroundColor='white';
         document.getElementById('ctrl').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.which=='17'){
+    if(event.code=='ControlLeft'){
         document.getElementById('ctrl').style.backgroundColor='black';
         document.getElementById('ctrl').style.color='white';
     }
@@ -808,13 +808,13 @@ body.addEventListener('keyup', (event)=>{
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.which=='18'){
+    if(event.code=='AltRight'){
         document.getElementById('alts').style.backgroundColor='white';
         document.getElementById('alts').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.which=='18'){
+    if(event.code=='AltRight'){
         document.getElementById('alts').style.backgroundColor='black';
         document.getElementById('alts').style.color='white';
     }
@@ -886,26 +886,26 @@ body.addEventListener('keyup', (event)=>{
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.key=='['){
+    if(event.key=='['|| event.key=='{'){
         document.getElementById('p1').style.backgroundColor='white';
         document.getElementById('p1').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.key=='['){
+    if(event.key=='[' || event.key=='{'){
         document.getElementById('p1').style.backgroundColor='black';
         document.getElementById('p1').style.color='white';
     }
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.key==']'){
+    if(event.key==']' || event.key=='}'){
         document.getElementById('p2').style.backgroundColor='white';
         document.getElementById('p2').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.key==']'){
+    if(event.key==']' || event.key=='}'){
         document.getElementById('p2').style.backgroundColor='black';
         document.getElementById('p2').style.color='white';
     }
@@ -951,39 +951,39 @@ body.addEventListener('keyup', (event)=>{
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.key==','){
+    if(event.code=='Comma'){
         document.getElementById('m1').style.backgroundColor='white';
         document.getElementById('m1').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.key==','){
+    if(event.code=='Comma'){
         document.getElementById('m1').style.backgroundColor='black';
         document.getElementById('m1').style.color='white';
     }
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.key=="'"){
+    if(event.code=="Quote"){
         document.getElementById('l2').style.backgroundColor='white';
         document.getElementById('l2').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.key=="'"){
+    if(event.code=="Quote"){
         document.getElementById('l2').style.backgroundColor='black';
         document.getElementById('l2').style.color='white';
     }
 })
 
 body.addEventListener('keydown', (event)=>{
-    if(event.key==';'){
+    if(event.code=='Semicolon'){
         document.getElementById('l1').style.backgroundColor='white';
         document.getElementById('l1').style.color='black';
     }
 })
 body.addEventListener('keyup', (event)=>{
-    if(event.key==';'){
+    if(event.code=='Semicolon'){
         document.getElementById('l1').style.backgroundColor='black';
         document.getElementById('l1').style.color='white';
     }

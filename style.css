@@ -3,6 +3,18 @@
     padding: 0;
     justify-content: center; 
 }
+.input{
+    height: 4rem;
+    width: 90rem;
+}
+input{
+    height: 3.3rem;
+    width: 75rem;
+    background-color: rgb(154, 154, 154);
+    color: white;
+    border-radius: 1rem;
+    font-size: x-large;
+}
 .cell1{
     border-radius: 0.5rem;
     width: 3.2rem;
@@ -11,6 +23,7 @@
     margin-top: 0.5rem;
     background-color: black;
     color: white;
+    border: 2px solid white;
 }
 .cell{
     border-radius: 0.5rem;
@@ -22,6 +35,7 @@
     background-color: black;
     color: white;
     font-size: bold;
+    border: 2px solid white;
 }
 .container{
     height:25rem;
@@ -75,20 +89,20 @@
 }
 .c4{
     position: absolute;
-    top: 10.5rem;
+    top: 11rem;
     display: grid;
     gap: 0.5rem;
     grid-template-areas:'four4 five5 six6';
 }
 .c5{
     position: absolute;
-    top: 14.5rem;
+    top: 15.2rem;
     display: grid;
     gap: 0.5rem;
     grid-template-areas:'one1 two2 three3 enter';
 }
 .c6{position: absolute;
-    top: 18.5rem;
+    top: 19.4rem;
     display: grid;
     gap: 0.5rem;
     grid-template-areas:'zero del';
@@ -96,8 +110,8 @@
 .container7{
     background-color: gray;
     position: absolute;
-    top:0;
-    left: 58.7rem;
+    top:4rem;
+    left: 60rem;
    height: 25rem;
 
 }
@@ -343,8 +357,8 @@
 }
 #down{
     position: absolute;
-    left: 50.3rem;
-    top: 20.4rem;
+    left: 50.8rem;
+    top: 25.5rem;
     padding-top: 0rem;
     height: 1.5rem;
     grid-area:down;
@@ -423,5 +437,11 @@
     height: 6.5rem;
     grid-area:enter;
     margin-right: 2rem;
+}
+sup{
+    padding: 0.5rem;
+}
+sub{
+    padding: 1rem;
 }
 
